@@ -19,7 +19,7 @@ Things to do to correctly run the program:
 
 3. When adding a directory, make sure to use two slashes (\\\ instead of simply \\) as one of the is an escape character. Just a heads up to make sure everything works perfectly :)
 
-Doing these three things will ensure you get the correct output given 8 processes. If you want to change the number of processes used, you can follow the video demo and edit the commented lines as we did. 
+Doing these four things will ensure you get the correct output given 8 processes. If you want to change the number of processes used, you can follow the video demo and edit the commented lines as we did. 
 
 The link to the 'War and Peace' text: 
 https://www.gutenberg.org/cache/epub/2600/pg2600.txt
