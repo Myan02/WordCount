@@ -11,6 +11,8 @@ AndresR20 -> Andres Rodriguez
 
 Things to do to correctly run the program:
 
+1. main.py is the code for the program. We could not get multiprocessing to work with Jupyter Notebook so we resorted to using a standard IDE. Please click on the python file and either download it or copy the code from main.py over to an IDE of your choice. 
+
 1. Create a text file to store 'War and Peace' in order to be able to read the file and extract its contents. We got the text file straight from the website you provided us with. You can of course use any file you want, just make sure in the ListSplit() function when you call ReadFile(), that the file name is actually the directory with the specific text file you want to read from, in our case it was "war and peace.txt" because the file was already in our IDE directory.  
 
 2. At the bottom of the program, you will see a write() function with another open() function that allows us to write the contents of our final dict into a new text file for easy access. You can do this by either creating an empty text file and then adding the directory of that text file into the open() function, or simply adding a directory and making a name for a new text file to be created. As seen in our video demo, we had the directory "C:\\\Users\\\babur\\\Desktop\\\text\\\result.txt" but the file result.txt did not exist in that folder. This is fine as it ends up creating a file to hold the dictionary. 
